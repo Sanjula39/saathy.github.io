@@ -77,6 +77,7 @@
 }
 
 body {
+  
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -7321,7 +7322,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 8rem !important;
 }
 
 .mt-auto {
@@ -11302,7 +11303,8 @@ html {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgb(255,165,0);
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
