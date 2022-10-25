@@ -185,6 +185,49 @@
     transition-duration: 0s;
   }
 }
+
+/* ----------------------------Cart---------------------------- */
 span{
-color: red;
+  color: red;
+  }
+
+ .products-grid{
+ 
+ justify-content: space-around;
+ margin: 0 auto;
+ margin-top: 50px ;
+
+}
+.product-title{
+  
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid lightgray;
+  
+}
+.product-name{
+  margin-right: 20px;
+ 
+  
+}
+.product-price{
+  margin-left: 20px;
+ 
+}
+.product-qualtity{
+  margin-left: 10px;
+  
+  
+}
+.Total{
+  margin-left: 10px;
+  
+} 
+.products-grid ion-icon{
+  color: red;
+
+}
+.Messsage{
+  font-style: italic;
+  font-size: 1.5rem;
 }

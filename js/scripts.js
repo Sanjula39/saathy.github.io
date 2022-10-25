@@ -133,4 +133,64 @@ function totalAmount(product){
     }
     
 }
+
+
+function displayCart(){
+    let cartItems = localStorage.getItem("productsInCart")
+    cartItems = JSON.parse(cartItems);
+    let productGrid = document.querySelector
+    (".products");
+
+    let cartCost = localStorage.getItem('totalCost');
+    console.log(cartItems);
+    if(cartItems && productGrid){
+        productGrid.innerHTML = '';
+        Object.values(cartItems).map(item=>{
+            productGrid.innerHTML += `
+            <div class ="products-grid">
+            <div class = "card">
+            <div class= "card-body">
+            
+            <div class = "card-title">
+
+            <h2 >  Product : ${item.name}</h2>
+            </div>
+            
+            <div class = "price">
+            <h5>Price : $${item.price}.00</h5>
+            
+            </div>
+            <div class = "quantity">
+            <h5>Quantity :
+            
+            <span>${item.inCart}</span>
+            
+            </div>
+            <div class ="total">
+            <h2> Total Cost :
+            $${item.inCart * item.price}.00
+            </h2>
+            </div>
+            </div>
+            </div>
+            
+
+            `
+            
+        });
+        productGrid.innerHTML += `
+        <div class ="products-grid">
+            <div class = "card">
+            <div class= "total-amount"><h2>Total Amount  :  $${cartCost}.00<h2>
+            
+            </div>
+            </div>
+            </div>`
+
+    }
+    
+
+
+}
 onLoadCartNumbers();
+displayCart();
