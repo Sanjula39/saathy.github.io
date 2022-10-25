@@ -11324,7 +11324,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url(/assets/img/01.jpg);
+  background-image: url(https://images.unsplash.com/photo-1622172498642-0720d6a2500f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  /* background-image: url(/assets/img/01.jpg); */
   /* background: linear-gradient(0deg, #ff6a00 0%, #ffae42 100%); */
   background-repeat: no-repeat;
   background-position: center center;
