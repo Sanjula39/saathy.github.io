@@ -11326,8 +11326,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  /* background-image: url(https://img.freepik.com/free-photo/closeup-shot-small-toy-car-wooden-train-track_181624-32510.jpg?w=1060&t=st=1666694097~exp=1666694697~hmac=d510c698874edb583f04c62241f00b0de236613daffe0582f1c20520a69ce614); */
-  background-image: url(/assets/img/01.jpg); 
+  background-image: url(https://images.unsplash.com/photo-1622172498642-0720d6a2500f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); 
+  /* background-image: url(/assets/img/01.jpg);  */
   /* background: linear-gradient(0deg, #ff6a00 0%, #ffae42 100%); */
   background-repeat: no-repeat;
   background-position: center center;
